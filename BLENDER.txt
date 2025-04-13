@@ -1,0 +1,145 @@
+"BLENDER" 
+https://www.youtube.com/watch?v=4haAdmHqGOw
+(3:02:32)
+
+
+=> Object Mode
+-> Add Primitive: Shift + A
+-> Edit/ Preferences/ Input/ Emulate 3 Button Mouse
+-> Rotate: m3 / alt + mouse1
+-> Zoom: m3 + ctrl / alt + ctrl + mouse1
+-> Pan: m3 + shift / alt + shift + mouse1 
+-> Move: G
+-> Cancel Move: esc/ m2
+-> Confirm Move: m1
+-> Move in Axis: G > X - Y - Z / G > m3 / G > alt + mouse1
+-> Scale: S (7)
+-> Scale in Axis: S > X - Y - Z / S > m3 / S > alt + mouse1
+-> Object Rotate: R
+-> Set Primitive Properties: F9
+-> Toggle between Ortho/ Perspective: num5
+-> Set Parent: ctrl + P (5)
+-> Focus: num. / `
+-> Transform: N
+-> Apply Changed Values: ctrl + A
+-> Move Cursor: Shift + m2 
+-> Move Origin to Center: m2 > Set Origin > Origin to Geometry
+-> Move to different Collection: M
+-> Edit Multiple Values: Click + Drag
+-> Link Material: Select Mesh with no material > Select Mesh with material > ctrl + L > Link Material
+-> Front of View: alt + G
+-> Toggle Between Solid and Wireframe mode: Z
+
+
+=> Render
+-> Render Image: F12
+-> Camera View: num0 
+-> Properties: N
+-> Move Render Camera: N > View > Camera To View
+-> Fly Mode: Shift + `
+-> Render Engine: Render > Cycles
+-> Subsurface: Material > Subsurface (12)
+
+
+=> Edit Mode
+-> Smooth Render: m2 > Smooth Shading
+-> Smooth Edges: Modifiers > Generate > Subdivision Surface / ctrl + 1
+	(if model disappears > Preferences > Viewport > Subdivision > Uncheck GPU Subdivision)
+-> Toggle between Object Mode and Edit Mode: Tab
+-> Proportional Editing: O (0)
+-> Proportional Influence Area: Scroll Wheel / Page Up - Page Down
+-> Duplicate: Shift + D
+-> Toggle X-Ray: Alt + Z (1)
+-> Smooth Edges: Modifiers > Generate > Solidify (2)
+-> Toggle Snapping: Shift + Tab (3)
+-> Select More: alt + m1 > ctrl + +
+-> Hide Selected Vertices: H
+-> Unhide Vertices: alt + H
+-> Extrude: E
+-> Overlapped Faces: select the vertex > G > m1 / Modifier > Deform > Skinwrap > Eye Dropper > Select Below Mesh > Move the Modifier to Top > Apply
+-> Bevel: ctrl + B (8)
+-> Loop Cut: ctrl + R (8)
+-> Simple Deform: Modifiers > Deform > Simple Deform
+-> Toggle Between Vertices/ Edges / Faces mode: 1/ 2 / 3
+-> Create Face: F
+-> Select Multiple Loops: alt + shift + m1
+-> Clamp Overlap: C
+-> Remove Vertices Overlapping: A > M > By Distance
+
+
+=> Sculpt Mode
+-> Inflate Brush: I
+-> Brush Radius: F
+-> Brush Strength: Shift + F
+-> Grab Brush: G
+-> Mash Brush: M
+-> Only Show the Selected Object: /
+-> Only Apply to Front Face: Brush > Front Faces Only
+-> Invert Mask: ctrl + I
+-> Mesh Filter: ctrl + 1 (4)
+-> Smooth Mask: Mask > Smooth Mask
+
+
+=> Shading
+-> Nodes work from left to right
+-> Roughness Map: Image Texture > Color Space > Non-Color
+-> Normal Map: Image Texture > Color Space > No-Color > Normal Map Node
+-> Random Color: Input > Object Info > Random > Base Color > Shift + A > Converter > Color Ramp > Between Random and Base Color (11)
+-> Duplicate Node Contain Connection: ctrl + shift + D
+-> Metallic using Color Ramp: Color Ramp > Set Non Metallic to Black and Metallic to White > Color > Metallic 
+-> Roughness using Color Ramp: Color Ramp > Reverse to Metallic > Color > Roughness 
+
+
+
+=> Texture Paint
+-> New Texture: Material > Base Color > Image Texture > New
+-> Save: Image > Save As
+
+
+=> Geometry Nodes
+-> Show Nodes: New
+-> Random Points on Mesh: Point > Distribute Points on Faces (6)
+-> Show the Mesh as well: Join Geometry > Group Input Geometry > Join Geometry Geometry
+-> Show Custom Mesh in Nodes: Instances > Instance in Points > Place Between Distribute Points on Faces and Join Geometry > Drag Drop Custom Mesh > Object Info Geometry > Instance on Points Instance
+-> Intersecting Points: Distribute Points on Faces > Random to Poisson Disk > Distance Min
+-> Reference Vertex Group In Geometry Node: Distribute Points on Faces > Density Factor > Named Attribute > Select the Name
+-> Separate Specific Value of Geometry Node: Distribute Points on Faces > Density Max > Group Input > Unnamed Slot (9)
+-> Rename the Value: Click on Small Arrow > Group > Group Sockets
+-> Math Nodes: Utilities > Math > Math > Multiple > Value 1000 > Group Input Sprinkle Density > Density Max
+-> Collection: Drag drop collection > Check Separate Children > Check Reset Children > Check Pick Instances
+-> Rotation: Distribute Points on Faces Rotation > Instance on Points Rotation
+-> Rotate To Axis: Utilities > Rotation > Rotate Rotation > Local
+-> Random Value: Rotate Rotation > Random Value > Max To Zero > Z to TAU (Pi + Pi) (10)
+
+
+=> Weight Paint
+-> Paint Weight: Data > Vertex Groups
+
+
+=> Notes
+-> Points on the mesh are vertices (vertex for single)
+-> Line connecting 2 vertices is edge
+-> Faces are the squares which is made of 4 edges/ vertices making a square
+-> Easy to add more resolution later than to remove it
+-> (0) Proportional Influence makes it to apply the effects to near by area of modified selected
+-> Major Segments: 32 | Minor Segments: 12 | Major Radius: 39 | Minor Radius: 29
+-> Renaming: F12 / F2
+-> (1) X-Ray allows to do selection across the model regardless the camera position 
+-> (2) If normal are inside then move the offset under solidify to 1
+-> (3) Can select the snapping behaviour by clicking next to magnate icon
+-> Modifiers work from top to bottom, if want to subdivide solidified mesh then 1st should be solidify and then subdivide
+-> (2) Smooth edges by > Solidify > Edge Data > Crease Inner to 1
+-> If vertices positions are changed or moved, move them back
+-> Toggle between Different Modes: ctrl + tab
+-> (4) Applies Uniform Values Based On Selected Type
+-> (5) Select the child first then the parent > Keep Transform
+-> (6) Will hide the base mesh on which the points are shown
+-> Sphere: Major Segments: 12 | Minor Segments: 9 | Radius : .01
+-> (7) In Scale mode you can type in the value
+-> (8) Use scroll wheel to add or remove more detail
+-> (9) If duplicate the model containing Geometry Node, press on the 2 shown next to Geometry Nodes.001 to make the changes independent to each other 
+-> (10) Blender uses Radiant for rotation and for complete rotation we use TAU which is 2x Pi
+-> (11) Can change color type from gradient to constant
+-> (12) For non skin meshes set all the values in radius to 1 and scale to .005, as metallic the weight can only be 0 or 1
+
+
