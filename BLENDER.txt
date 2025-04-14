@@ -29,6 +29,8 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 -> Link Material: Select Mesh with no material > Select Mesh with material > ctrl + L > Link Material
 -> Front of View: alt + G
 -> Toggle Between Solid and Wireframe mode: Z
+-> Access Local Rotation: R + 2x X/ Y/ Z
+-> Track Ball Rotation: 2x R
 
 
 => Render
