@@ -31,6 +31,7 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 -> Toggle Between Solid and Wireframe mode: Z
 -> Access Local Rotation: R + 2x X/ Y/ Z
 -> Track Ball Rotation: 2x R
+-> Snap to vertex/ Edge: G + B (13)
 
 
 => Render
@@ -143,5 +144,6 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 -> (10) Blender uses Radiant for rotation and for complete rotation we use TAU which is 2x Pi
 -> (11) Can change color type from gradient to constant
 -> (12) For non skin meshes set all the values in radius to 1 and scale to .005, as metallic the weight can only be 0 or 1
+-> (13) During snapping mode you can navigate using alt + m3
 
 
