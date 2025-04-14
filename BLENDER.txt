@@ -68,6 +68,8 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 -> Select Multiple Loops: alt + shift + m1
 -> Clamp Overlap: C
 -> Remove Vertices Overlapping: A > M > By Distance
+-> Delete Vertices/ Edges/ Faces: m1 > X
+-> Insert: I
 
 
 => Sculpt Mode
