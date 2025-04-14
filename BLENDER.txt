@@ -32,6 +32,8 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 -> Access Local Rotation: R + 2x X/ Y/ Z
 -> Track Ball Rotation: 2x R
 -> Snap to vertex/ Edge: G + B (13)
+-> Face Orientation: Viewport Overlay > Face Orientation
+-> Fix Normals: A + alt + N > Recalculate Outside
 
 
 => Render
