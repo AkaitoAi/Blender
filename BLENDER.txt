@@ -61,7 +61,7 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 -> Select More: alt + m1 > ctrl + +
 -> Hide Selected Vertices: H
 -> Unhide Vertices: alt + H
--> Extrude: E
+-> Extrude: E (14)
 -> Overlapped Faces: select the vertex > G > m1 / Modifier > Deform > Skinwrap > Eye Dropper > Select Below Mesh > Move the Modifier to Top > Apply
 -> Bevel: ctrl + B (8)
 -> Loop Cut: ctrl + R (8)
@@ -150,5 +150,5 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 -> (11) Can change color type from gradient to constant
 -> (12) For non skin meshes set all the values in radius to 1 and scale to .005, as metallic the weight can only be 0 or 1
 -> (13) During snapping mode you can navigate using alt + m3
-
+-> (14) During Extrude pressing ctrl and m2 will extrude to cursor, can also do E to extrude, S to scale and shift + Z will lock extrution to X and Y Axis
 
