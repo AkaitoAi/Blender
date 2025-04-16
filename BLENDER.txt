@@ -34,6 +34,7 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 -> Snap to vertex/ Edge: G + B (13)
 -> Face Orientation: Viewport Overlay > Face Orientation
 -> Fix Normals: A + alt + N > Recalculate Outside
+-> Toggle between Modes: ctrl + tab
 
 
 => Render
@@ -138,7 +139,6 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 -> Modifiers work from top to bottom, if want to subdivide solidified mesh then 1st should be solidify and then subdivide
 -> (2) Smooth edges by > Solidify > Edge Data > Crease Inner to 1
 -> If vertices positions are changed or moved, move them back
--> Toggle between Different Modes: ctrl + tab
 -> (4) Applies Uniform Values Based On Selected Type
 -> (5) Select the child first then the parent > Keep Transform
 -> (6) Will hide the base mesh on which the points are shown
