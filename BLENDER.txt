@@ -151,4 +151,5 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 -> (12) For non skin meshes set all the values in radius to 1 and scale to .005, as metallic the weight can only be 0 or 1
 -> (13) During snapping mode you can navigate using alt + m3
 -> (14) During Extrude pressing ctrl and m2 will extrude to cursor, can also do E to extrude, S to scale and shift + Z will lock extrution to X and Y Axis
+-> Can change pivot point in the Edit Mode
 
