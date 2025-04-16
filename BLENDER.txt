@@ -77,6 +77,8 @@ https://mega.nz/folder/imQGFKgR#O0wu4xrnlH31FyaxCOJJJA
 -> Remove Vertices Overlapping: A > M > By Distance
 -> Delete Vertices/ Edges/ Faces: m1 > X
 -> Insert: I (16)
+-> Select Specific Part of Model: Over the object + L
+
 
 
 => Sculpt Mode
@@ -159,3 +161,4 @@ https://mega.nz/folder/imQGFKgR#O0wu4xrnlH31FyaxCOJJJA
 -> (15) For applying changes from object mode to edit mode, like change scale in object mode will change the scale overall but after applying this action scale will be default to (1,1,1) and edit mode will not be affected
 -> (16) Good for adding information in the middle of the face
 -> Can convert triangulate model to quad by searching tri to quad
+-> Sharp Edge for keeping nearest faces flat when smoothing
