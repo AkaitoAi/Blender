@@ -75,7 +75,7 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 -> Clamp Overlap: C
 -> Remove Vertices Overlapping: A > M > By Distance
 -> Delete Vertices/ Edges/ Faces: m1 > X
--> Insert: I
+-> Insert: I (16)
 
 
 => Sculpt Mode
@@ -156,4 +156,5 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 -> Can change pivot point in the Edit Mode
 -> For fixing normals when using shade smooth use shade auto smooth
 -> (15) For applying changes from object mode to edit mode, like change scale in object mode will change the scale overall but after applying this action scale will be default to (1,1,1) and edit mode will not be affected
+-> (16) Good for adding information in the middle of the face
 
