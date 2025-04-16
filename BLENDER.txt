@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 -> Set Parent: ctrl + P (5)
 -> Focus: num. / `
 -> Transform: N
--> Apply Changed Values: ctrl + A
+-> Apply Changed Values: ctrl + A (15)
 -> Move Cursor: Shift + m2 
 -> Move Origin to Center: m2 > Set Origin > Origin to Geometry
 -> Move to different Collection: M
@@ -155,4 +155,5 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 -> (14) During Extrude pressing ctrl and m2 will extrude to cursor, can also do E to extrude, S to scale and shift + Z will lock extrution to X and Y Axis
 -> Can change pivot point in the Edit Mode
 -> For fixing normals when using shade smooth use shade auto smooth
+-> (15) For applying changes from object mode to edit mode, like change scale in object mode will change the scale overall but after applying this action scale will be default to (1,1,1) and edit mode will not be affected
 
