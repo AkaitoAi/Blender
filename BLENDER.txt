@@ -49,6 +49,7 @@ https://www.youtube.com/watch?v=4haAdmHqGOw
 
 
 => Edit Mode
+-> Select Model: A
 -> Smooth Render: m2 > Smooth Shading
 -> Smooth Edges: Modifiers > Generate > Subdivision Surface / ctrl + 1
 	(if model disappears > Preferences > Viewport > Subdivision > Uncheck GPU Subdivision)
