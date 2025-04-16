@@ -158,4 +158,4 @@ https://mega.nz/folder/imQGFKgR#O0wu4xrnlH31FyaxCOJJJA
 -> For fixing normals when using shade smooth use shade auto smooth
 -> (15) For applying changes from object mode to edit mode, like change scale in object mode will change the scale overall but after applying this action scale will be default to (1,1,1) and edit mode will not be affected
 -> (16) Good for adding information in the middle of the face
-
+-> Can convert triangulate model to quad by searching tri to quad
