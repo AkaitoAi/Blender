@@ -36,6 +36,7 @@ https://mega.nz/folder/imQGFKgR#O0wu4xrnlH31FyaxCOJJJA
 -> Face Orientation: Viewport Overlay > Face Orientation
 -> Fix Normals: A + alt + N > Recalculate Outside
 -> Toggle between Modes: ctrl + tab
+-> Toggle Y and -Y: num1 and ctrl + num1
 
 
 => Render
