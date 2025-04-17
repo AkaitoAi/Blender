@@ -168,4 +168,5 @@ https://mega.nz/folder/imQGFKgR#O0wu4xrnlH31FyaxCOJJJA
 -> Can convert triangulate model to quad by searching tri to quad
 -> Sharp Edge for keeping nearest faces flat when smoothing
 -> For scale reference Cube > Edit Mode > G > Z > 1 > Object Mode > S > Z > 2 > S > Shift + Z > .7 
--> (17) Smart UV projectuu
+-> (17) Smart UV project
+-> Using UV Sync can select edges on UV and those will also be selected on the model
