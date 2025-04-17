@@ -78,6 +78,7 @@ https://mega.nz/folder/imQGFKgR#O0wu4xrnlH31FyaxCOJJJA
 -> Delete Vertices/ Edges/ Faces: m1 > X
 -> Insert: I (16)
 -> Select Specific Part of Model: Over the object + L
+-> UV Mapping: U (17)
 
 
 
@@ -163,3 +164,4 @@ https://mega.nz/folder/imQGFKgR#O0wu4xrnlH31FyaxCOJJJA
 -> Can convert triangulate model to quad by searching tri to quad
 -> Sharp Edge for keeping nearest faces flat when smoothing
 -> For scale reference Cube > Edit Mode > G > Z > 1 > Object Mode > S > Z > 2 > S > Shift + Z > .7 
+-> (17) Smart UV project
